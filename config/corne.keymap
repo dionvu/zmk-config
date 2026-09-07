@@ -51,10 +51,10 @@
 
             display-name = "Base";
             bindings = <
-&trans  &kp Q  &kp W         &kp E          &kp R          &kp T        &kp Y            &kp U          &kp I                  &kp O              &kp P          &trans
-&trans  &kp A  &kp S         &kp D          &kp F          &kp G        &kp H            &kp J          &kp K                  &kp L              &kp BACKSPACE  &kp ENTER
-&trans  &kp Z  &HRML LALT X  &HRML LMETA C  &HRML LCTRL V  &kp B        &kp N            &HRMR RCTRL M  &HRMR RIGHT_GUI COMMA  &HRMR RALT PERIOD  &kp ENTER      &trans
-                             &mo 4          &lt 1 TAB      &kp SPACE    &kp RIGHT_SHIFT  &lt 2 ESCAPE   &mo 3
+&trans  &HRML LSHIFT Q  &HRML LEFT_ALT W  &HRML LEFT_GUI E  &HRML LCTRL R  &kp T        &kp Y            &HRMR RCTRL U  &HRMR RIGHT_GUI I  &HRMR RIGHT_ALT O  &HRMR RSHIFT P  &trans
+&trans  &kp A           &kp S             &kp D             &kp F          &kp G        &kp H            &kp J          &kp K              &kp L              &kp BACKSPACE   &trans
+&trans  &kp Z           &kp X             &kp C             &kp V          &kp B        &kp N            &kp M          &kp COMMA          &kp PERIOD         &kp ENTER       &trans
+                                          &mo 4             &lt 1 TAB      &kp SPACE    &kp RIGHT_SHIFT  &lt 2 ESCAPE   &mo 3
             >;
         };
 
@@ -67,10 +67,10 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &kp EXCL   &kp AT           &kp HASH           &kp DLLR              &kp PRCNT    &kp CARET      &kp AMPS   &kp KP_MULTIPLY  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans
-&trans  &kp GRAVE  &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS  &trans       &kp SLASH      &kp MINUS  &kp EQUAL        &kp SEMI          &kp COLON          &trans
-&trans  &kp TILDE  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RPAR              &trans       &kp BACKSLASH  &kp UNDER  &kp PLUS         &kp PIPE          &kp QUESTION       &trans
-                                    &trans             &trans                &trans       &trans         &trans     &trans
+&trans  &kp EXCL   &kp AT           &kp HASH           &kp DLLR              &kp PRCNT           &kp CARET      &kp AMPS   &kp KP_MULTIPLY  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans
+&trans  &kp GRAVE  &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS  &kp LESS_THAN       &kp SLASH      &kp MINUS  &kp EQUAL        &kp SEMI          &kp COLON          &trans
+&trans  &kp TILDE  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RPAR              &kp GREATER_THAN    &kp BACKSLASH  &kp UNDER  &kp PLUS         &kp PIPE          &kp QUESTION       &trans
+                                    &trans             &trans                &trans              &trans         &trans     &trans
             >;
         };
 
@@ -83,10 +83,10 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6    &kp N7    &kp N8        &kp N9     &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans        &trans     &trans  &trans
+                        &trans  &trans  &trans    &trans    &trans    &trans
             >;
         };
 
