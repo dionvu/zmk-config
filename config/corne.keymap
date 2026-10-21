@@ -51,7 +51,7 @@
 
             display-name = "Base";
             bindings = <
-&trans  &HRML LSHIFT Q  &HRML LEFT_ALT W  &HRML LEFT_GUI E  &HRML LCTRL R  &kp T        &kp Y            &HRMR RCTRL U  &HRMR RIGHT_GUI I  &HRMR RIGHT_ALT O  &HRMR RSHIFT P  &trans
+&trans  &HRML LSHIFT Q  &HRML LEFT_ALT W  &HRML LEFT_GUI E  &HRML LCTRL R  &kp T        &kp Y            &HRMR RCTRL U  &HRMR RIGHT_GUI I  &HRMR RIGHT_ALT O  &HRMR RSHIFT P  &tog 4
 &trans  &kp A           &kp S             &kp D             &kp F          &kp G        &kp H            &kp J          &kp K              &kp L              &kp BACKSPACE   &trans
 &trans  &kp Z           &kp X             &kp C             &kp V          &kp B        &kp N            &kp M          &kp COMMA          &kp PERIOD         &kp ENTER       &trans
                                           &tog 4            &lt 1 TAB      &kp SPACE    &kp RIGHT_SHIFT  &lt 2 ESCAPE   &mo 3
@@ -102,7 +102,7 @@
         deadlock {
             display-name = "Base";
             bindings = <
-&trans  &kp Q  &kp W  &kp E      &kp R           &kp T        &kp Y            &kp U         &kp I      &kp O       &kp P          &trans
+&trans  &kp Q  &kp W  &kp E      &kp R           &kp T        &kp Y            &kp U         &kp I      &kp O       &kp P          &tog 0
 &trans  &kp A  &kp S  &kp D      &kp F           &kp G        &kp H            &kp J         &kp K      &kp L       &kp BACKSPACE  &trans
 &trans  &kp Z  &kp X  &kp C      &kp V           &kp B        &kp N            &kp M         &kp COMMA  &kp PERIOD  &kp ENTER      &trans
                       &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE    &kp RIGHT_SHIFT  &lt 2 ESCAPE  &mo 3
