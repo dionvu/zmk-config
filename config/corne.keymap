@@ -54,7 +54,7 @@
 &trans  &HRML LSHIFT Q  &HRML LEFT_ALT W  &HRML LEFT_GUI E  &HRML LCTRL R  &kp T        &kp Y            &HRMR RCTRL U  &HRMR RIGHT_GUI I  &HRMR RIGHT_ALT O  &HRMR RSHIFT P  &trans
 &trans  &kp A           &kp S             &kp D             &kp F          &kp G        &kp H            &kp J          &kp K              &kp L              &kp BACKSPACE   &trans
 &trans  &kp Z           &kp X             &kp C             &kp V          &kp B        &kp N            &kp M          &kp COMMA          &kp PERIOD         &kp ENTER       &trans
-                                          &tog 0            &lt 1 TAB      &kp SPACE    &kp RIGHT_SHIFT  &lt 2 ESCAPE   &mo 3
+                                          &tog 4            &lt 1 TAB      &kp SPACE    &kp RIGHT_SHIFT  &lt 2 ESCAPE   &mo 3
             >;
         };
 
